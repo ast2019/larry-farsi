@@ -915,10 +915,10 @@ div.message-partheaders {
 }
 
 div.message-part div.pre {
-	margin: 0;
-	padding: 0;
-	font-family: monospace;
-	font-size: 12px;
+    font-family: WNazanin,tahoma;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
 }
 
 div.message-part span.sig {
