@@ -28,7 +28,8 @@
 
 
 body {
-	font-family: yekan,"Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
+	/*font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;*/
+	font-family: yekan;
 	font-size: 11px;
 	color: #333;
 	background: url(images/linen.jpg) repeat #d1d5d8;
