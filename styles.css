@@ -26,10 +26,59 @@
 	font-style: normal
 }
 
+@font-face {
+  font-family: 'wyekan';
+  src: url("fonts/WebYekan.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'droidkufi';
+  src: url("fonts/Droid-Arabic-Kufi.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WMitra';
+  src: url("fonts/MitraWeb-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WMitra-bold';
+  src: url("fonts/MitraWeb-Bold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WRoya';
+  src: url("fonts/RoyaWeb-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WRoya-bold';
+  src: url("fonts/RoyaWeb-Bold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WNazanin';
+  src: url("fonts/NazaninWeb-Regular.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'WNazanin-bold';
+  src: url("fonts/Nazaninbold.woff") format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
 
 body {
 	/*font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;*/
-	font-family: yekan;
+	font-family: yekan,tahoma;
 	font-size: 11px;
 	color: #333;
 	background: url(images/linen.jpg) repeat #d1d5d8;
@@ -1967,7 +2016,7 @@ ul.proplist li {
 
 .toolbar a.button {
 	text-align: center;
-	font-size: 10px;
+	font-size: 8px;
 	color: #555;
 	min-width: 50px;
 	max-width: 70px;
